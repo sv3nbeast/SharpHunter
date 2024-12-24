@@ -39,34 +39,34 @@ namespace SharpHunter.Utils
 [*] Usage: SharpHunter [command] [options]
 
   Info Commands:
-    all       - Hunt all informations and credentials.
-    sys       - Collect basic system information.
-    pid       - List and mark running processes.
-    net       - Display network connection details.
-    rdp       - Check RDP settings and connection history.
-    soft      - List all installed software.
-    file      - Gather information about user files.
-    domain    - Enumerating Active Directory environments.
+    all       - 搜索所有信息和凭证.
+    sys       - 收集基本系统信息.
+    pid       - 列出并标记正在运行的进程.
+    net       - 显示网络连接详细信息.
+    rdp       - 检查RDP设置和连接历史记录.
+    soft      - 列出所有已安装的软件.
+    file      - 收集有关用户文件的信息.
+    domain    - 枚举Active Directory环境.
 
   Cred Commands:
-    chrome    - Extract credentials from Chromium-based browsers.
-    fshell    - Retrieve passwords saved by FinalShell.
-    moba      - Extract MobaXterm credentials and passwords.
-    todesk    - Hunt credentials from ToDesk process.
-    sunlogin  - Hunt credentials from SunloginClient process.
-    wechat    - Extract WeChatKey from the WeChat process.
-    wifi      - Retrieve Wi-Fi SSIDs and passwords.
+    chrome    - 从基于Chromium的浏览器中提取凭据.
+    fshell    - 检索FinalShell保存的密码.
+    moba      - 提取MobaXterm凭据和密码.
+    todesk    - 从ToDesk流程中获取凭证.
+    sunlogin  - 从SunloginClient进程中获取凭据.
+    wechat    - 从微信进程中提取WeChatKey.
+    wifi      - 检索Wi-Fi SSID和密码.
 
   Post Commands:
-    run       - Execute commands using the current thread token.
-    screen    - Capture a full-screen screenshot of all displays.
-    adduser   - Add an administrator account for remote access.
-    enrdp     - Enable RDP and create an administrator RDP user.
-    down      - Download files remotely from the target server.
+    run       - 使用当前线程令牌执行命令.
+    screen    - 捕获所有显示器的全屏屏幕截图.
+    adduser   - 添加管理员帐户以进行远程访问.
+    enrdp     - 启用RDP并创建管理员RDP用户.
+    down      - 从目标服务器远程下载文件.
 
   Options:
-    -log      - Enable logging.
-    -zip      - Enable log compression.
+    -log      - 启用日志记录.
+    -zip      - 启用日志压缩.
 ";
 
 
